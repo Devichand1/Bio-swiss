@@ -1,0 +1,71 @@
+/* .slider img {
+    width: 100%;
+} */
+.splide__slide img{
+    width: 100% !important;
+}
+.slider-box{
+    position: relative;
+
+}
+.slider-box h3{
+    position: absolute;
+    text-align: center;
+    z-index: 3;
+    color: #275682;
+    font-weight: 900;
+    width: 50%;
+    top: 10%;
+    font-size: 4rem;
+     font-family: "Montserrat";
+    display: flex;
+    justify-content: center;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    transition: all 2s ease;
+    animation: text 2s ease;
+}
+.text2{
+    margin-top: 4%;
+}
+ 
+.slider-box p{
+    position: absolute;
+    text-align: center;
+    z-index: 3;
+    color: #275682;
+    font-weight: 900;
+    width: 50%;
+    top: 40%;
+    font-size: 1rem;
+     font-family: "Montserrat";
+    display: flex;
+    justify-content: center;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    transition: all 2s ease;
+    animation: textp 2s ease-in-out ;
+    /* animation-delay: 1s; */
+}
+.slider-box  .secondp{
+    top: 45%;
+}
+@keyframes text {
+  from{
+        font-size: 2rem;
+    }
+to{
+        font-size: 4Hrem;
+    }
+}
+@keyframes textp {
+    0%{
+          font-size: 0rem;
+      }
+      50%{
+          font-size: 0rem;
+      }
+100%{
+          font-size: 3Hrem;
+      }
+  }

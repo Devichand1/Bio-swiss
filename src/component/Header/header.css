@@ -1,0 +1,53 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  /* font-family: 'Nunito Sans'; */
+  font-weight: normal;
+
+}
+.header-top{
+    background-color: #275682;
+    color: white;
+    display: flex;
+    font-size: 0.8rem;
+    justify-content: center;
+    padding: 0.65rem;
+}
+.header-menubar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 18rem;
+    align-items: center;
+}
+.brand-logo img{
+    width: 9rem;
+}
+.header-menu{
+    display: flex;
+    margin-bottom: 0%;
+}
+.header-menu li{
+    list-style: none;
+    font-size: 0.9rem;
+    color: #275682;
+    padding: 0 1rem;
+    cursor: pointer;
+}
+.drawer{
+    display: none;
+}
+@media only screen and (max-width:800px) {
+    .drawer{
+        display: block;
+    }
+    .header-menu{
+        display: none;
+    }
+    .header-menubar{
+        padding: 1rem 3rem;
+    }
+    .brand-logo img{
+        width: 5rem;
+    }
+}
